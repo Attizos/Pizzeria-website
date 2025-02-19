@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Pizza restaurant">
+   <meta name="keywords" content="Pizza, UTH, Warszawa">
+   <meta name="author" content="Rafał Sacharuk">
+   <title>Pizza-UTH</title>
+   <link rel="stylesheet" href="zasoby/css/styles.css">
+   <link rel="shortcut icon" href="zasoby/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="index.html" class="nav__logo">
+            <img src="zasoby/img/logo.png" alt="image">
+            Pizza UTH
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="index.html" class="nav__link">strona główna</a>
+               </li>
+               <li>
+                  <a href="o_nas.html" class="nav__link">o nas</a>
+               </li>
+               <li>
+                  <a href="menu.html" class="nav__link">menu</a>
+               </li>
+               <li>
+                  <a href="kontakt.html" class="nav__link">kontakt</a>
+               </li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+               <img src="zasoby/icons/close-large-fill.svg" alt="close Menu icon">
+            </div>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+            <img src="zasoby/icons/menu-line.svg" alt="Menu icon">
+         </div>
+      </nav>
+   </header>
+
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">Nieziemsko dobra i <br> Doskonale chrupiąca Pizza</h1>
+               <p class="home__description">
+                  Zamów najlepszą pizzę, aby zaspokoić głód i uczynić chwile jeszcze bardziej niezapomnianymi.
+               </p>
+               <a href="menu.html" class="button">
+                  Zamów Teraz!
+               </a>
+               <img src="zasoby/img/sticker-pizza.svg" alt="image" class="home__sticker-1">
+               <img src="zasoby/img/sticker-leaf.svg" alt="image" class="home__sticker-2">
+            </div>
+            <div class="home__images">
+               <img src="zasoby/img/home-pizza.png" alt="image" class="home__pizza">
+               <img src="zasoby/img/home-board.png" alt="image" class="home__board">
+
+               <img src="zasoby/img/home-leaf-1.png" alt="image" class="home__ingredient home__leaf-1">
+               <img src="zasoby/img/home-leaf-2.png" alt="image" class="home__ingredient home__leaf-2">
+               <img src="zasoby/img/home-pepperoni.png" alt="image" class="home__ingredient home__pepperoni">
+               <img src="zasoby/img/home-mushroom.png" alt="image" class="home__ingredient home__mushroom">
+               <img src="zasoby/img/home-olive.png" alt="image" class="home__ingredient home__olive">
+               <img src="zasoby/img/home-tomato.png" alt="image" class="home__ingredient home__tomato">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== Slider ====================-->
+      <section class="slider section" id="slider">
+         <h2 class="section__title slider__title">
+            Zobacz parę zdjęć z naszej kuchni
+         </h2>
+         <div class="slider__container container grid">
+
+            <div class="slides">
+               <img class="slide" src="zasoby/img/pizza_slider-1.jpg" alt="image" width="600" height="400">
+               <img class="slide" src="zasoby/img/pizza_slider-2.jpg" alt="image" width="600" height="400">
+               <img class="slide" src="zasoby/img/pizza_slider-3.jpg" alt="image" width="600" height="400">
+            </div>
+
+            <div class="prev__control">
+               <button class="controls__button" id="prev">Poprzednie</button>
+            </div>
+
+            <div class="next__control">
+               <button class="controls__button" id="next">Następne</button>
+            </div>
+
+         </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+         <div class="popular__container container grid">
+            <div class="popular__data">
+               <h2 class="section__title">
+                  Nasze Specjały
+               </h2>
+               <p class="popular__description">
+                  Nasze pizze to doskonały smak, najlepsze składniki i perfekcyjny spód, a szeroki wybór smaków
+                  zaspokaja każdy apetyt. <br> Nasze TOP#3 to:
+               </p>
+            </div>
+            <div class="popular__slider">
+               <div class="popular__card">
+                  <img src="zasoby/img/popular-dish.png" alt="image" class="popular__dish">
+                  <img src="zasoby/img/popular-1.png" alt="image" class="popular__img">
+                  <h2 class="popular__title">
+                     Margherita
+                  </h2>
+               </div>
+               <div class="popular__card">
+                  <img src="zasoby/img/popular-dish.png" alt="image" class="popular__dish">
+                  <img src="zasoby/img/popular-2.png" alt="image" class="popular__img">
+                  <h2 class="popular__title">
+                     Capriciosa
+                  </h2>
+               </div>
+               <div class="popular__card">
+                  <img src="zasoby/img/popular-dish.png" alt="" class="popular__dish">
+                  <img src="zasoby/img/popular-3.png" alt="image" class="popular__img">
+                  <h2 class="popular__title">
+                     Pepperoni
+                  </h2>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== RECIPE ====================-->
+      <section class="recipe section">
+         <h2 class="section__title">
+            Zdrowe i Świeże <br> składniki to podstawa
+         </h2>
+         <div class="recpie__container container grid">
+            <div class="recipe__list grid">
+               <div class="recipe__ingredient">
+                  <img src="zasoby/img/recipe-flour.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Mąka</h3>
+                     <p class="recipe__description">W naszej kuchni używamy tylko polskiej, sprawdzonej mąki</p>
+                  </div>
+               </div>
+               <div class="recipe__ingredient">
+                  <img src="zasoby/img/recipe-cheese.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Ser</h3>
+                     <p class="recipe__description">Sery do naszych pizz sprowadzamy z Włoch</p>
+                  </div>
+               </div>
+               <div class="recipe__ingredient">
+
+                  <img src="zasoby/img/recipe-sauces.png" alt="image" class="recipe__image">
+                  <div>
+                     <h3 class="recipe__name">Sosy</h3>
+                     <p class="recipe__description">Sami robimy nasze sosy</p>
+                  </div>
+               </div>
+               <div class="recipe__ingredient">
+
+                  <img src="zasoby/img/recipe-tomato.png" alt="image" class="recipe__image">
+                  <div>
+                     <h3 class="recipe__name">Pomidory</h3>
+                     <p class="recipe__description">Najwyższej jakości pomidory wychodowane w Polsce </p>
+                  </div>
+               </div>
+               <div class="recipe__ingredient">
+
+                  <img src="zasoby/img/recipe-meat.png" alt="image" class="recipe__image">
+                  <div>
+                     <h3 class="recipe__name">Salami</h3>
+                     <p class="recipe__description">Najlepsze salami sprowadzone z Włoch</p>
+                  </div>
+               </div>
+            </div>
+            <img src="zasoby/img/recipe-img.png" alt="image" class="recipe__img">
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <h2 class="section__title title__contact">Zadzwoń teraz!</h2>
+
+               <div class="contact__info grid">
+                  <div>
+                     <h3 class="contact__title">albo <br> Napisz do nas</h3>
+                     <div class="contact__social">
+                        <a href="https://www.whatsapp.com/" target="_blank" class="contact__social-link">
+                           <img src="zasoby/icons/whatsapp-fill.svg" alt="image">
+                        </a>
+
+                        <a href="https://www.messenger.com/" target="_blank" class="contact__social-link">
+                           <img src="zasoby/icons/messenger-fill.svg" alt="image">
+                        </a>
+
+                        <a href="+48-123-456-789" target="_blank" class="contact__social-link">
+                           <img src="zasoby/icons/phone-fill.svg" alt="image">
+                        </a>
+                     </div>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Dostawa</h3>
+                     <address class="contact__address">
+                        +48 123 123 123 <br>
+                     </address>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Lokalizacja</h3>
+                     <address class="contact__address">
+                        Jagiellońska 82f, 03-301 Warszawa
+                     </address>
+
+                     <a href="https://maps.app.goo.gl/3AR5tXWy2ZDWGfN37" target="_blank" class="contact__map">
+                        <img src="zasoby/icons/map-pin-fill.svg" alt="image">
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="contact__image">
+               <img src="zasoby/img/pizza_guy1.png" alt="image" class="contact__img">
+            </div>
+            <img src="zasoby/img/sticker-tomato.svg" alt="image" class="contact__sticker-1">
+            <img src="zasoby/img/sticker-mushroom.svg" alt="image" class="contact__sticker-2">
+            <img src="zasoby/img/sticker-onion.svg" alt="image" class="contact__sticker-3">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">Pizza UTH</a>
+
+         <div class="footer__content grid">
+            <div>
+               <h3 class="footer__title">Nasze media społecznościowe</h3>
+
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                     <img src="zasoby/icons/facebook-fill.svg" alt="image">
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <img src="zasoby/icons/instagram-line.svg" alt="image">
+                  </a>
+                  <a href="https://www.x.com" target="_blank" class="footer__social-link">
+                     <img src="zasoby/icons/twitter-x-line.svg" alt="image">
+                  </a>
+               </div>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Metody płatności</h3>
+
+               <div class="footer__pay">
+                  <img src="zasoby/img/footer-card-1.png" alt="image" class="footer__pay-img">
+                  <img src="zasoby/img/footer-card-2.png" alt="image" class="footer__pay-img">
+                  <img src="zasoby/img/footer-card-3.png" alt="image" class="footer__pay-img">
+               </div>
+            </div>
+
+            <div>
+               <h3 class="footer__title">Subskrybuj po zniżki</h3>
+               <form action="" class="footer__form">
+                  <input type="email" placeholder="Email" class="footer__input">
+                  <button type="submit" class="footer__button button" onclick="pokazAlert()">
+                     Subskrybuj
+                     <script>
+                        function pokazAlert() {
+                           alert("Dziękuję za subskrybcję! :)");
+                        }
+                     </script>
+                  </button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="footer__policy">
+         <a href="coming_soon.html" class="footer__link">Warunki & Zgody</a>
+         <a href="coming_soon.html" class="footer__link">Polityka Prywatności</a>
+      </div>
+
+      <span class="footer__copy">
+         &#169; Wszyskie Prawa Zastrzeżone Przez Rafała Sacharuk
+      </span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <img src="zasoby/icons/arrow-up-line.svg" alt="image">
+   </a>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="zasoby/js/main.js"></script>
+</body>
+
+</html>

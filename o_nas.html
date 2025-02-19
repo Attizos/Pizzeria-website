@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Pizza restaurant">
+   <meta name="keywords" content="Pizza, UTH, Warszawa">
+   <meta name="author" content="Rafał Sacharuk">
+   <title>o nas</title>
+   <link rel="stylesheet" href="zasoby/css/styles.css">
+   <link rel="shortcut icon" href="zasoby/img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="index.html" class="nav__logo">
+            <img src="zasoby/img/logo.png" alt="image">
+            Pizza UTH
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="index.html" class="nav__link">strona główna</a>
+               </li>
+               <li>
+                  <a href="o_nas.html" class="nav__link">o nas</a>
+               </li>
+               <li>
+                  <a href="menu.html" class="nav__link">menu</a>
+               </li>
+               <li>
+                  <a href="kontakt.html" class="nav__link">kontakt</a>
+               </li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+               <img src="zasoby/icons/close-large-fill.svg" alt="close Menu icon">
+            </div>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+            <img src="zasoby/icons/menu-line.svg" alt="Menu icon">
+         </div>
+      </nav>
+   </header>
+
+   <main class="main">
+
+    <!--============= O NAS =============-->
+    <section class="o_nas section" id="o_nas">
+        <div class="o_nas__container container grid">
+            <article class="history">
+                Pizzeria "Pizza UTH" powstała w Warszawie z inicjatywy Rafała Sacharuk, studenta Uczelni Techniczno-Handlowej, który połączył swoją pasję do gotowania z marzeniami o własnym biznesie. Inspiracją do stworzenia pizzerii była zarówno miłość do włoskich smaków, jak i chęć realizacji ambicji w praktycznym świecie gastronomii. W "Pizza UTH" serwowane są pizze przygotowywane z najwyższej jakości składników – od aromatycznego sosu z dojrzewających pomidorów, przez świeże zioła, po wyjątkowe mieszanki serów i dodatków. Restauracja szybko zyskała uznanie dzięki ciepłej atmosferze, piecowi opalanemu drewnem i unikalnym recepturom, które zachwycają zarówno mieszkańców Warszawy, jak i turystów. "Pizza UTH" to miejsce, gdzie tradycja włoskiej kuchni spotyka się z pasją młodego przedsiębiorcy, a każdy kęs opowiada historię pełną smaku i zaangażowania.
+            </article>
+            <div class="pizza_guy2">
+               <img src="zasoby/img/pizza_guy2.png" alt="image">
+            </div>
+        </div>
+     </section>
+    <!--==================== FOOTER ====================-->
+   <footer class="footer">
+    <div class="footer__container container grid">
+       <a href="#" class="footer__logo">Pizza UTH</a>
+
+       <div class="footer__content grid">
+          <div>
+             <h3 class="footer__title">Nasze media społecznościowe</h3>
+
+             <div class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                   <img src="zasoby/icons/facebook-fill.svg" alt="image">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                   <img src="zasoby/icons/instagram-line.svg" alt="image">
+                </a>
+                <a href="https://www.x.com" target="_blank" class="footer__social-link">
+                   <img src="zasoby/icons/twitter-x-line.svg" alt="image">
+                </a>
+             </div>
+          </div>
+
+          <div>
+             <h3 class="footer__title">Metody płatności</h3>
+
+             <div class="footer__pay">
+                <img src="zasoby/img/footer-card-1.png" alt="image" class="footer__pay-img">
+                <img src="zasoby/img/footer-card-2.png" alt="image" class="footer__pay-img">
+                <img src="zasoby/img/footer-card-3.png" alt="image" class="footer__pay-img">
+             </div>
+          </div>
+
+          <div>
+             <h3 class="footer__title">Subskrybuj po zniżki</h3>
+             <form action="" class="footer__form">
+                <input type="email" placeholder="Email" class="footer__input">
+                <button type="submit" class="footer__button button" onclick="pokazAlert()">
+                  Subskrybuj
+                  <script>
+                     function pokazAlert() {
+                        alert("Dziękuję za subskrybcję! :)");
+                     }
+                  </script>
+               </button>
+             </form>
+          </div>
+       </div>
+    </div>
+    <div class="footer__policy">
+       <a href="coming_soon.html" class="footer__link">Warunki & Zgody</a>
+       <a href="coming_soon.html" class="footer__link">Polityka Prywatności</a>
+    </div>
+
+    <span class="footer__copy">
+       &#169; Wszyskie Prawa Zastrzeżone Przez Rafała Sacharuk
+    </span>
+ </footer>
+
+ <!--========== SCROLL UP ==========-->
+ <a href="#" class="scrollup" id="scroll-up">
+    <img src="zasoby/icons/arrow-up-line.svg" alt="image">
+ </a>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="zasoby/js/main.js"></script>
+</body>
+
+</html>
